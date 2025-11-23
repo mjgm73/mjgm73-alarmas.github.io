@@ -1,0 +1,16 @@
+alarma_app/
+│   main.py                 # Punto de entrada principal
+│   __init__.py
+│
+├───models/
+│   │   alarm_model.py      # Manejo de la base de datos y modelo de alarmas
+│   │   __init__.py
+│
+├───views/
+│   │   alarm_view.py       # Componentes visuales principales
+│   │   dialog_view.py      # Diálogos y ventanas emergentes
+│   │   __init__.py
+│
+└───controllers/
+    │   alarm_controller.py # Lógica de negocio y controladores
+    │   __init__.py
